@@ -1,11 +1,11 @@
 import React from 'react';
 
 export default function centerCard(props){
-    const {tipo} = props
+    const {children} = props;
     return (
         <div className="centercard">
             <span>
-                {tipo}
+                {children}
             </span>
         </div>
     )
